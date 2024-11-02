@@ -1,4 +1,4 @@
-# ResvEst on the fly
+# ResvEst
 
 by Marcus Zou
 
@@ -34,7 +34,7 @@ by Marcus Zou
     ```
 3. Start coding with:
     ```shell
-    code .
+    (.venv) code .
     ```
 4. From the VS Code, add the new app `simulation` to the ResvEst/settings.py file at __INSTALLED_APPS__ section
    ```
@@ -46,10 +46,11 @@ by Marcus Zou
        'django.contrib.messages',
        'django.contrib.staticfiles',
        'simulation',
+       ]
     ```
 6. Then run the Djano server:
    ```shell
-   python3 manage.py runserver
+   (.venv) python3 manage.py runserver
    ## Click the hyperlink https://127.0.0.1:8000/ to launch the default site.
    ```
 
