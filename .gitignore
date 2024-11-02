@@ -1,0 +1,8 @@
+env/
+.DS_Store
+.env
+.venv
+__pycache__/
+simulation/__pycache__/
+simulation/migrations/
+*.bak
