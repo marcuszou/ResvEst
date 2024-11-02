@@ -38,19 +38,19 @@ by Marcus Zou
     ```
 4. From the VS Code, add the new app `simulation` to the ResvEst/settings.py file at __INSTALLED_APPS__ section
    ```
-      INSTALLED_APPS = [
-        'django.contrib.admin',
-        'django.contrib.auth',
-        'django.contrib.contenttypes',
-        'django.contrib.sessions',
-        'django.contrib.messages',
-        'django.contrib.staticfiles',
-        'simulation',
+   INSTALLED_APPS = [
+       'django.contrib.admin',
+       'django.contrib.auth',
+       'django.contrib.contenttypes',
+       'django.contrib.sessions',
+       'django.contrib.messages',
+       'django.contrib.staticfiles',
+       'simulation',
     ```
 6. Then run the Djano server:
    ```shell
    python3 manage.py runserver
-   ## Click the hyperlink https://127.0.0.1:8000/ to lauch the default site.
+   ## Click the hyperlink https://127.0.0.1:8000/ to launch the default site.
    ```
 
 ## Coding
