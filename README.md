@@ -12,7 +12,7 @@ by Marcus Zou
     ## sudo port select --set virtualenv virtualenv311
 
     # Create project folder
-    nkdir ResvEst
+    mkdir ResvEst
     cd ResvEst
     
     # create .venv
